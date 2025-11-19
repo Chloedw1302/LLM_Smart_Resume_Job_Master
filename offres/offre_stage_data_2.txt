@@ -1,0 +1,42 @@
+Stage - Ingénieur d'études et développement Radio - Data & IA F/H
+Descriptif du poste
+Dans le cadre de l’amélioration de la gestion et de l’accès au catalogue antennaire d’Orange, le stage vise à :
+- Migrer les données du catalogue, actuellement sous format PDF, vers la plateforme d’intelligence artificielle d’Orange
+- Développer et mettre en place des modèles de recherche et de recommandation en utilisant du Prompt Engineering sur un modèle général comme GPT-5, puis valider ces modèles avec les utilisateurs, experts antenne et équipes d’Orange Innovation
+
+Objectifs du stage :
+
+1.      Analyse et compréhension du catalogue antennaire :
+- Étudier en profondeur le catalogue existant pour identifier et comprendre les critères de classification des antennes et de leurs accessoires (dimensions, poids, architecture, performances, bandes de fréquence, etc.)
+- Se familiariser avec les différentes typologies et paramètres techniques pour mieux orienter la modélisation et la recherche
+
+2.      Migration des données vers la plateforme Orange :
+- Extraire et structurer les données du catalogue PDF
+- Développer une procédure de migration automatisée pour transférer ces données vers la plateforme d’IA Dinootoo, en assurant leur cohérence et leur intégrité
+
+3.      Développement de modèles de recherche et de recommandation :
+- Utiliser du Prompt Engineering sur un modèle de langage général (tel que GPT-5) pour créer des outils de recherche et de recommandation adaptés aux besoins des utilisateurs.
+- Collaborer avec les utilisateurs finaux, experts antenne et équipes d’Orange Innovation pour valider et affiner ces modèles
+
+4.      Création d’un mode de requêtage personnalisé :
+- Concevoir et mettre en place un système de requêtage intuitif permettant aux utilisateurs du catalogue d’interroger la base de données en fonction de leurs besoins spécifiques, facilitant ainsi la recherche et la sélection des antennes
+
+5.      Automatisation de la mise à jour de la documentation :
+- Mettre en place un processus automatisé permettant de mettre à jour régulièrement la documentation en lien avec les fournisseurs, afin de garantir la pertinence et l’actualité des données
+
+6.      Participation à l’industrialisation et à la fiabilisation :
+- Contribuer à l’intégration de l’outil dans l’environnement de production
+- Collaborer avec les experts du Groupe pour assurer la robustesse, la fiabilité et la pérennité de la solution développée
+
+Voir moins
+Profil recherché
+Vous préparez un Master en Data / Intelligence Artificielle, avec de bonnes bases en Radio
+- Vous recherchez un stage de 6 mois à temps plein à partir de mars 2026 (Pour information, nous ne proposons pas de stage alterné)
+- Vous avez de bonnes compétences en Data/IA, en priorité avec du Prompt engineering
+- Vous avez des connaissances dans les domaines de l’électromagnétisme, des antennes, et des systèmes RF : les composants hyperfréquences et antennes appréciée
+- Anglais apprécié
+- Esprit analytique et capacité à comprendre des catalogues techniques complexes
+- Aptitude à travailler en équipe, à collaborer avec des experts métier et des utilisateurs finaux
+
+- Doté(e) d’un bon relationnel, vous aimez travailler en équipe
+- Votre esprit d’initiative, votre autonomie et votre créativité seront des atouts majeurs pour réussir cette mission

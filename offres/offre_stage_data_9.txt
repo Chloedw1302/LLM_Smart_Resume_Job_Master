@@ -1,0 +1,44 @@
+[SFR] Stagiaire Ingénieur Data (H/F)
+
+Descriptif du poste
+Intitulé du poste
+
+Entreprise d'innovation et 2ᵉ opérateur français, SFR transforme les usages grâce à un réseau puissant — Fibre, 4G, 5G — et des expertises de pointe en IA, data, cloud ou encore cybersécurité. SFR accompagne chaque jour près de 27 millions de clients.
+
+Ce qui nous anime, c'est bien plus qu'un plan stratégique : c'est une tranSFRmation collective, audacieuse et engagée, portée par 8 000 collaborateurs qui veulent faire bouger les lignes.
+
+Rejoindre SFR, c'est contribuer à une mission qui a du sens, avec un impact réel et rapide. Chaque jour est une opportunité de tester, proposer, transformer.
+
+Toutes nos offres d'emploi sont ouvertes aux personnes en situation de handicap. 
+
+Au sein de la Direction exécutive Réseau, et plus précisément au sein de la Direction Mobile, vous intégrerez le service Direction Production Mobile / Design, Capa Plan & Planification Radio qui a pour responsabilité le design et l'évolution de l'architecture du réseau d'accès mobile SFR sur les technologies 2G/3G/4G/5G.
+
+Activité de l'équipe : 
+
+L'ingénierie Design radio du réseau mobile
+Suivi et prévision de la charge capacitaire sur le réseau 
+Planification des opérations de production
+Flux Inter-opérateurs sur le Projet Crozon : Validation, Cohérence & Incohérences, Evolutions, Adaptation
+Pour l'ensemble de ces tâches, l'efficacité opérationnelle est un atout et s'appuie de plus en plus sur des processus d'industrialisation, d'automatisation des contrôles, de définition des besoins et de production de reporting pour suivre les différents projets.
+
+Cela nécessite également la manipulation de beaucoup d'informations en provenance de différentes sources & Flux.
+
+Description de la mission.
+
+L'objectif de ce stage est de participer activement à la mise en place des outils / scripts / requêtes qui doivent faciliter l'exploitation de données Radio, fiabiliser les différentes bases et identifier les incohérences entre les Flux Radio inter-opérateurs.
+
+Dans ce cadre, vous serez amené(e) à prendre en charge les missions suivantes :
+
+Recueillir et comprendre les besoins métiers des Flux Inter-opérateurs.
+Développer et maintenir les analyses statistiques et/ou des dashboards.
+Détection automatique des incohérences en accord avec la spécification technique de l'interface.
+Accompagner les utilisateurs finaux des dashboards.
+Profil
+
+Étudiant(e) en dernière année de cycle ingénieur ou master en télécommunications ou informatique.
+Une première expérience (stage, projet académique) en analyse de données ou en télécommunications serait un plus.
+Maîtrise des outils d'analyse de données et de Visualisation ( Tableau, SQL, Python, R).
+Connaissance des réseaux de télécommunications, en particulier des réseaux d'accès radio (2G, 3G, 4G, 5G).
+Capacité à interpréter et à visualiser des données complexes.
+Bonnes compétences en communication et en travail d'équipe.
+Esprit analytique, curieux et rigoureux.

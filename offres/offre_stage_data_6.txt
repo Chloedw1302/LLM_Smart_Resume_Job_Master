@@ -1,0 +1,47 @@
+Stage - Data Scientist
+Descriptif du poste
+Polynom est une jeune entreprise innovante qui constitue un environnement idéal pour un apprentissage accéléré. Au cours des différentes phases du projet, vous aurez l’occasion de travailler avec des équipes expertes dans leurs domaines, de la data science au conseil en passant par le data engineering. Nous possédons notamment une forte expertise du machine learning afin de valoriser au mieux les données de nos clients. Dans ce cadre, nous sommes à la recherche d’un(e) data scientist pour un stage, à partir de février/mars 2025 pour 6 mois, basé à Rueil-Malmaison à 2 minutes à pied du RER A.
+
+Descriptif du poste :
+
+Vous travaillerez sur des missions stratégiques pour nos clients et vous aurez la chance d’avoir un vrai impact sur les projets. Vous pourrez être impliqué(e) dans un ou plusieurs projets, avec des missions variées et stimulantes :
+
+Analyse de besoins clients complexes et réalisation d’analyses quantitatives poussées
+
+Conception et implémentation de modèles statistiques et IA
+
+Création de pipelines de données efficaces pour l’intégration et le traitement des données selon les derniers standards techniques
+
+Développement de dashboards interactifs et percutants qui transforment les données en insights clairs
+
+Participation aux missions de data engineering pour élargir votre palette de compétences et développer un profil polyvalent
+
+Élaboration de supports de restitution des résultats, mettant en valeur vos compétences en datavisualisation
+
+Présentation des résultats de votre travail au client en collaboration avec le reste de l’équipe projet
+
+Contribution au développement commercial du cabinet
+
+Avantages du poste :  
+
+Travail en collaboration avec une équipe d’experts, dont certains ont publié dans des conférences de premier plan comme ICML ou ICLR
+
+Découvrir des algorithmes et technologies innovantes dans le domaine de l’IA
+
+Travailler main dans la main avec des profils business, data science et tech
+
+Accès à des outils et plateformes cloud de pointe.
+
+Ambiance bienveillante, internationale, dynamique et collaborative.
+
+Participation à des projets à fort impact pour des clients prestigieux.
+
+Voir moins
+Profil recherché
+Grande école d’ingénieur ou d’informatique ou Université (BAC+3 à BAC+5) avec une dominante en informatique décisionnelle, en data science, en statistiques ou en économétrie
+
+Une bonne maîtrise de la programmation sous Python et des librairies de manipulation de données et de data science (Pandas, Scikit-Learn, Scipy, etc)
+
+Forte curiosité intellectuelle et capacité à résoudre des problèmes complexes
+
+Capacité à présenter vos résultats devant des audiences techniques ou non techniques

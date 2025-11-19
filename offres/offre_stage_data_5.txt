@@ -1,0 +1,34 @@
+[SFR] Stagiaire (h/f) - Data Analyst
+Descriptif du poste
+Intitulé du poste
+
+Rejoignez la Direction Support du Service Client de SFR, où vous intégrerez une équipe dédiée à l'analyse et à l'optimisation de l'activité du Service Client. Notre mission est de fournir une vision claire, accessible et précise de la performance du Service Client de SFR, tout en analysant les facteurs qui influencent les coûts et les indicateurs clés de performance.
+
+Vos Missions
+
+En tant que Data Analyst, votre rôle s'articulera autour de deux axes principaux :
+
+Reporting et Suivi des Performances :
+Produire et fournir des rapports consolidés pour les activités majeures du Service Client.
+Créer et suivre les KPI's permettant d'évaluer l'efficacité du dispositif de production, à destination des équipes internes et des partenaires externes.
+Analyse du comportement d'appel des clients :
+Analyser les interactions des clients avec le Service Client grâce aux données produites par l'équipe data et au big data de SFR.
+Identifier les tendances : profils des appelants, motifs et fréquence des appels, taux d'appels répétés, et autres comportements clés.
+Concrètement, vous serez amené(e) à :
+
+Contribuer à l'élaboration de notre modèle décisionnel en optimisant l'accès aux données pour des prises de décision rapides et éclairées.
+Participer à des projets transverses : optimiser les reportings actuels, et collaborer à la création de nouveaux KPI's.
+Analyser les évolutions de performance : interpréter les données pour identifier les faits marquants et tendances significatives.
+Fiabiliser les indicateurs et pipelines de données afin de garantir des analyses solides et continues.
+Assurer la production de reportings récurrents pour le suivi de l'activité.
+Innover dans les méthodologies d'analyse en intégrant de nouvelles approches dans notre modèle de données.
+Profil
+
+Vous êtes issu(e) d'une formation en statistiques ou analyses quantitatives (bac+5) et possédez des compétences techniques solides en data. Vos principales qualités sont : rigueur, engagement & fiabilité ; respect des engagements et des délais ; adaptabilité ; travail en équipe ; esprit d'analyse et de synthèse ; appétences pour les analyses quantitatives.
+
+Compétences techniques
+
+Manipulation de données : Programmation R (packages : dplyr, data.table, stringr, bigrquery).
+Requêtage SQL en environnement cloud : Connaissance des bases de données relationnelles et expérience en SQL avancé (gestion des CTE's, manipulation des dates, requêtes imbriquées...), Google Cloud Plateform , BigQuery
+Data Visualisation : Appétence pour la création de tableaux de bord avec Tableau Desktop.
+Maîtrise avancée d'Excel : Utilisation de Power Query, Power Pivot et VBA.

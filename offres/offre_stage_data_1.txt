@@ -1,0 +1,70 @@
+Data & AI Engineer - Stage de fin d'études Paris - Theodo Data & IA
+Descriptif du poste
+L’histoire du groupe Theodo et son succès
+
+Le groupe Theodo accompagne depuis 2009 les entreprises innovantes dans la conception, le développement et le déploiement de produits digitaux ingénieux, en tirant parti du meilleur de la technologie et de l’approche Lean.
+
+Theodo connait une croissance exceptionnelle depuis 15 ans : nos équipes rassemblent plus de 700 Theodoers, principalement des Software Engineers, passionnés de technologie et d’amélioration continue. Avec la croissance, le groupe s’est structuré en entités spécialisées par technologies (Theodo Apps, Theodo Cloud, Theodo Data & AI) ou par industries (Theodo Fintech, Theodo Govtech et Theodo Heathtech). En 2024, le groupe Theodo génère 90M€ de CA.
+
+Créée en 2016, Theodo Data & AI est l'entité Data et IA de Theodo. Notre ambition est d'accompagner nos clients dans la conception et le déploiement de leur stratégie data ainsi que la recherche et le développement de solutions d’intelligence artificielle à l’état de l’art.
+
+L'entreprise est en pleine croissance : chaque année, Theodo Data & AI enregistre une croissance de plus de 30 % de son chiffre d'affaires, ouvrant ainsi de nouvelles opportunités passionnantes pour les Theodoers !
+
+Pourquoi on recrute un Data & AI Engineer ?
+
+Afin de contribuer à la croissance de Theodo Data & AI, nous recrutons un Data & AI Engineer en stage pour renforcer notre équipe !
+
+Tes missions :
+Comprendre le métier et les données de ton client
+Travailler en équipe avec 2 à 4 ingénieurs data, 1 Product Owner et 1 Lead Tech
+Créer un produit qui crée de la valeur pour ton client avec : les algorithmes les plus adaptés, une base de code maintenable, testée et scalable des flux de données robustes et fiables
+Concevoir l’architecture du produit et l’intégrer dans le SI du client pour le mettre en production
+Générer de la connaissance technique sur un sujet d'expertise et le propager au sein de Theodo Data & AI
+Participer à la croissance de Theodo Data & AI (selon tes préférences : recrutement, avant-ventes, marketing technique)
+Contribuer à notre blog technique (+30 000 visiteurs mensuels) : https://data-ai.theodo.com/en/technical-blog
+Contribuer à améliorer nos savoir-faire en expérimentant continuellement de nouvelles méthodes et de nouveaux outils afin d’améliorer l’efficacité des équipes.
+En fonction de tes envies et de tes compétences, tu auras la possibilité de :
+Devenir un(e) expert(e) sur les sujets techniques qui te passionnent
+Devenir un(e) leader grâce au développement de compétences transverses : coaching, recrutement, commercial, management, marketing, etc
+Monter une tribe ou une guilde pour développer un nouvelle offre et améliorer nos pratiques
+Ton profil :
+Tu es bientôt diplômé(e) d’une école ingénieur
+Tu as une forte appétence pour le secteur de la data et tu as idéalement une première expérience dans le conseil ou dans la tech
+Tu as une bonne connaissance de Python et tu as déjà utilisé des technologies Big Data (Spark, Scala, Hadoop)
+Tu connais ou as envie d’apprendre à utiliser l’un des Cloud Providers (AWS, Google Cloud Platform, Microsoft Azure)
+Tu as envie de progresser et d’évoluer dans un environnement challengeant et bienveillant au quotidien
+Pourquoi rejoindre Theodo Data & IA ?
+
+Chez Theodo, on est convaincu que c’est difficile de progresser seul. On a donc développé un esprit d’équipe fort pour s’entraider, et des moyens concrets pour t’accompagner au mieux :
+
+📚 Formation et développement : 2 à 3 fois par semaine, la Theodo Academy composée de nos experts métiers et dirigeants, dispense des formations de 30 minutes (dojos) sur des sujets variés : la tech, le produit, la gestion de projet, le management…
+
+⛩️ Méthodologie : une méthodologie unique basée sur le Lean Management, pour identifier rapidement les problèmes et tirer l’amélioration continue
+
+🤝 Développement de carrière : chaque Theodoer est accompagné par un coach interne. Son objectif : t’épauler dans ton quotidien et parler objectifs de carrière via des séances de coaching hebdomadaires.
+
+💼 Rejoindre un groupe de 700 personnes avec de nombreuses possibilités d’évolutions cross-entités
+
+🎯 Participation à des projets associatifs grâce à la Fondation Theodo (Ada Tech School, Code Phoenix, Article 1…)
+
+🎉 Soirées mensuelles, keynotes et week-end d’entreprise annuel
+
+🚇 Remboursement de 50% de l’abonnement de transport ou mobilité durable
+
+🍽 Carte ticket-restaurants Swile
+
+Prêt·e à nous rejoindre ?
+
+Chez Theodo, nous sommes convaincus que la diversité est une richesse et que l’égalité des chances est essentielle pour construire des équipes performantes et épanouies. C’est pourquoi notre processus de recrutement est conçu pour être équitable, bienveillant et fondé sur les compétences. Nous accueillons toutes les candidatures, sans distinction de genre, d’origine, d’orientation sexuelle, d’âge, de situation de handicap ou de croyances.
+
+Voir plus
+Profil recherché
+Tu es bientôt diplômé(e) d’une école ingénieur
+
+Tu as une forte appétence pour le secteur de la data et tu as idéalement une première expérience dans le conseil ou dans la tech
+
+Tu as une bonne connaissance de Python et tu as déjà utilisé des technologies Big Data (Spark, Scala, Hadoop)
+
+Tu connais ou as envie d’apprendre à utiliser l’un des Cloud Providers (AWS, Google Cloud Platform, Microsoft Azure)
+
+Tu as envie de progresser et d’évoluer dans un environnement challengeant et bienveillant au quotidien

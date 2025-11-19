@@ -1,0 +1,35 @@
+[SFR] Stagiaire (h/f) - INGENIEUR IA
+Descriptif du poste
+Intitulé du poste
+
+Vous intégrerez la direction Réseau de SFR, ainsi que le pôle « Tests PFS & Plateforme de validation »
+
+Doté du premier réseau en fibre optique et d'un réseau mobile de premier plan, le groupe a pour ambition de créer le leader national de la convergence du Très Haut Débit fixe-mobile. Le groupe propose une offre complète de services d'accès à Internet, de téléphonie fixe et mobile et de contenus audiovisuels. Il se positionne également comme un expert de solutions de communications unifiées, de Machine-to-Machine et de cloud computing pour les entreprises.
+
+Au sein de SFR, vous travaillerez sur la problématique de « l'introduction de IA dans nos projets d'automatisation et de simulation ». Votre rôle sera de développer et d'accompagner la création du projet IA. 
+
+Les principales thématiques abordées concernent :
+
+Mettre en place des modèles de données associés aux fichiers de type Syslog, pcap 
+Entrainement des modèles IA pour analyser les résultats des tests
+Générer des données de tests
+Aider à la conception, et l'automatisation des tests télécom
+Faciliter la maintenance des tests
+Analyser l'état de l'art sur l'analyse de fichiers de types Syslog, pcap  pour la détection de panne avec l'IA
+Profil
+
+Vous êtes en 4ème ou 5ème année d'école d'ingénieur, spécialisé dans l'intelligence artificielle.
+
+Vous avez déjà réalisé des projets IA avec un réel impact en entreprise, et enfin vous avez une vraie curiosité pour la littérature de l'innovation.
+
+Et enfin, vous distinguez par vos qualités personnelles et professionnelles :
+
+Vous êtes rigoureux et avez un sens de l'organisation pour assurer le suivi et la qualité des projets
+Vous disposez d'une excellente capacité à travailler en équipe, dans un environnement collaboratif et transversal
+Vous faites preuve d'une grande adaptabilité, dynamisme et créativité pour contribuer à l'amélioration continue des outils et process
+Vous savez être force de proposition
+Connaissances en Machine Learning et quelques modèles d'entrainement de type BERT, GPT-2 ou autre est indispensable
+Développement en Python, Node.js ou C# pour assurer la robustesse et la performance des services IA
+ 
+
+Tu es curieux, motivé rigoureux, et passionné par la donnée ? Ce stage est fait pour toi !

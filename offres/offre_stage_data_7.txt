@@ -1,0 +1,25 @@
+Stagiaire en IA et Computer Vision
+Descriptif du poste
+Votre mission principale sera de participer aux développements des algorithmes et chaines de traitements de données qui alimentent le cœur des produits Hiphen.
+
+• Optimiser des chaines de traitement d’images existantes dont les données sont captées par satellite, drone, robot et/ou smartphone ;
+
+• Développer de nouveaux modules de traitement de données multi-capteurs (caméras RGB, multispectrale, 3D, …) pour en extraire des caractéristiques des plantes par détection d’objets, segmentation, reconstruction 3D et analyse spectrale ;
+
+• Gérer des preuves de concepts (POC) pour développer de nouvelles méthodes comprenant la mise en œuvre de Vision Transformers (ViT) pour améliorer nos méthodes de caractérisation des plantes par computer vision et Deep Learning. Le POC doit permettre de statuer sur l’amélioration qu’apportent ces techniques issues de l’univers NLP en terme quantitatif (performance de calcul) et qualitatif (précision, facilité de déploiement, interprétabilité, transposition à d’autres cas d’usage, etc).
+
+• Prototypage de nouveaux outils interactifs (React.js, Dash, etc), pour mettre en scène les nouveaux algorithmes et méthodes afin de bien documenter l’effort de validation et de fournir à l’équipe IT de solides spécifications d’interfaces à intégrer dans nos plateformes numériques destinées aux clients.
+
+Voir moins
+Profil recherché
+• Vous êtes en formation spécialisée en intelligence artificielle et/ou en traitement du signal ;
+
+• Vous avez un excellent bagage technique en programmation Python ;
+
+• Vous êtes autonome et rigoureux, et souhaitez monter en compétences sur de nouvelles méthodes ;
+
+• Vous avez l’esprit collaboratif et saurez collecter et utiliser le feedback d’experts pour progresser efficacement sur les sujets qui vous seront attribués ;
+
+• Vous êtes très bon communiquant et savez vulgariser les détails techniques pour une audience de non-experts ;
+
+• Vous êtes à l’aise en anglais, à l’oral comme à l’écrit.

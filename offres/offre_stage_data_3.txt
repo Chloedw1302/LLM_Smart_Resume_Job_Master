@@ -1,0 +1,42 @@
+Data scientist Supply Chain - Stage
+
+Descriptif du poste
+Dans le cadre de projets utilisant l’IA pour Optimiser les Achats et la Supply Chain, vous interviendrez en tant que Chef(fe) de Projet IA à Blagnac.
+L’objectif de ce stage est d’améliorer les pratiques de la Supply Chain en intégrant des technologies avancées dont l’IA générative et l’IA agentique tout en maintenant un engagement envers la responsabilité sociale et environnementale.​​
+
+Au cours de ce stage, vous serez impliqué dans l’analyse et le développement de solutions d’intelligence artificielle pour des cas d’usage de Supply Chain.​
+
+Vos responsabilités seront les suivantes :​
+
+Comprendre les besoins utilisateurs​
+Développer des solutions IA sur différents environnements (ex : AWS, Azure, etc.)​
+Travailler sur automatisation des taches en interne, avec l’IA et la robotisation (RPA)
+Tester les solutions avec les utilisateurs ​
+Participer aux différentes phases des projets en utilisant l’IA générative et l’IA agentique avec différentes équipes, notamment des experts en Achats, en Supply Chain, en Data Science qui vous aideront à mener à bien vos missions
+Voir moins
+Profil recherché
+Description du profil :
+
+
+ 
+
+De formation Bac+5 en IA, Data Science et Supply Chain, vous disposez de solides connaissances et compétences en data management ​:
+
+Vous êtes à l’aise en automatisation des tâches, Agentic AI et en robotisation (RPA)
+Vous maîtrisez SQL​ et Python​
+Vous disposez de notions en outils de visualisation (Power BI, Tableau)
+Vous disposez de connaissances et/ou d’une première expérience en Supply Chain ​
+Vous êtes à l’aise en français et en anglais
+La connaissance du secteur aéronautique et des environnements Azure, AWS et Gitlab est un plus
+
+
+
+Nous proposons :
+
+  
+
+Diversité et inclusion : évoluez dans une entreprise reconnue par le Bloomberg Gender Equality Index et certifiée à l’échelle mondiale par EDGE+.
+Intégration : bénéficiez d’un programme d’intégration sur 9 mois pour un accompagnement structuré et progressif.
+Innovation : évoluez dans un écosystème qui fait émerger des projets concrets pour transformer le quotidien et construire un avenir plus durable.​
+Nos engagements et priorités
+Le groupe Capgemini encourage une culture inclusive dans un cadre multiculturel et handi-accueillant. En nous rejoignant, vous intégrez un collectif qui valorise la diversité, développe le potentiel de ses talents, s’engage dans des initiatives solidaires avec ses partenaires, et se mobilise pour réduire son impact environnemental sur tous ses sites et auprès de ses clients.

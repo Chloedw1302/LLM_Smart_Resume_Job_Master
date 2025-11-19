@@ -1,0 +1,53 @@
+Stage – Data Scientist IA générative – F / H
+Descriptif du poste
+Lieu : Rungis, France
+
+Construisons ensemble un avenir de confiance
+Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d’activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus inclusif. Le Groupe investit près de 4 milliards d’euros par an en Recherche & Développement, notamment dans des domaines clés de l’innovation tels que l’IA, la cybersécurité, le quantique, les technologies du cloud et la 6G. Thales compte près de 81 000 collaborateurs dans 68 pays. ​
+
+Nos engagements, vos avantages
+Notre savoir-faire technologique
+
+Notre attention portée à l’équilibre des collaborateurs
+
+Un environnement inclusif et bienveillant
+
+Un engagement sociétal et environnemental reconnu (Thales Solidarity, indice CAC 40 ESG…)
+
+Votre quotidien
+Nous fournissons et soutenons des systèmes pour la gestion et la protection de l'espace aérien. Nous travaillons avec passion dans un cadre architectural moderne, et s'efforce de repousser les limites de la technologie dans nos secteurs clés. Au sud de Paris, notre site est facilement accessible en transport en commun.
+Nous explorons des solutions basées sur l'intelligence artificielle pour améliorer l'efficacité et la productivité de nos équipes.L'objectif principal de ce projet est de déployer des solutions d'IA générative pour aider les employés dans leurs tâches quotidiennes. Cela inclut le développement d’assistants intégrés dans Outlook / Word / Excel, d’un assistant de codage basé sur l'IA pour lesdéveloppeurs, et la mise en place de chatbots basés sur du RAG (Retrieval Augmented Generation) pour faciliter le partage de la connaissance et améliorer l'onboarding.En nous rejoignant, vous intégrerez directement notre équipe de data scientists au sein de notre laboratoire d’innovation.
+
+Vos missions :
+
+• Identification des cas d’usage : Analyser les processus actuels pour identifier les opportunités où l'IA générative peut être déployée.
+
+• Proposition de solutions techniques : Concevoir des solutions adaptées pour chaque cas d'utilisation.
+
+• Fine-tuning des LLMs : ré-entraîner les modèles de langage sur nos données internes pour maximiser leur efficacité.
+
+• Évaluation de la qualité des réponses des LLMs : Mettre en place des métriques et des protocoles pour évaluer les performances des modèles de langage.
+
+• Améliorer la fiabilité des LLMs: Rechercher et implémenter des techniques pour renforcer la fiabilité des réponses générées.
+
+• Veille technologique : Suivre les dernières avancées en IA générative et évaluer leur pertinence pour nos besoins.
+
+Des ressources en calculs conséquentes (DGX station) seront mises à disposition notamment pour pouvoir fine-tuner des modèles.
+
+Votre profil :
+
+Vous êtes en dernière année en école d’ingénieur, d’université ou équivalent et à la recherche d’un stage de fin d’étude de 6 mois ?
+
+Vous avez les compétences suivantes :
+
+• Très bonne maîtrise de Python et des librairies de data science (numpy, pandas,une lib de visualisation, etc.)
+
+• Connaissances théoriques et pratiques des méthodes classiques d'intelligence artificielle : deep learning, machine learning, réseaux de neurones, etc.
+
+• Connaissance d'au moins un framework IA (Tensorflow, Pytorch, scikit-learn,…)
+
+• Connaissances générales de Docker, HTML, CSS, JavaScript
+
+Le mot de l’équipe : Vous aurez l’opportunité de travailler dans un environnement dynamique et innovant, avec des défis stimulants et un fort impact sur les processus internes.
+
+Tous nos stages sont conventionnés et soumis à une gratification dont le montant est déterminé selon votre niveau d’études.Thales, entreprise Handi-Engagée, reconnait tous les talents. La diversité est notre meilleur atout. Postulez et rejoignez nous !
