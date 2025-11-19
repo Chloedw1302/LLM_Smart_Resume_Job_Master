@@ -1,0 +1,19 @@
+Apprenti(e) Ingénieur(e) Mécanique / Mécatronique (H/F) 
+
+À propos de l’offre d’emploi
+Job Description Summary  Au sein du département Recherche et développement de l’équipe Women Health concernant les systèmes d’imagerie médicale pour la mammographie, vous serez intégré en tant qu’Apprenti(e) dans l’équipe Hardware (HW) en charge du développement des composants mécaniques et électroniques du positionneur de ce système.  Vous assurez la conception et l’amélioration continue des éléments mécaniques HW, le développement et la mise au point de solutions permettant l’intégration de ces éléments, vous êtes en charge des spécifications, du choix du design, des simulations/tests nécessaires au retrait de risque.  Vous serez amené plus spécifiquement à travailler sur des nouvelles features liées à la compression et au positionnement des patientes. Pour ce faire l’apprenti(e) devra dans un premier temps comprendre le workflow clinique pour identifier les besoins. Il / elle devra ensuite identifier les meilleures réponses techniques et contribuer à leur développement.  Job Description  Vos principales missions sont les suivantes (sans s’y limiter) :  
+	•	Définir le design mécanique et/ou electronique en établissant des concepts, définir les spécifications, la documentation de dimensionnement et le choix de technologie
+	•	Intégration 3D détaillée (CREO) incluant tous les éléments critiques à la fonction
+	•	Réalisation du dossier Engineering dans CREO, création ou mise à jour des plans de détails avec cotation fonctionnelle de détail, réalisation les nomenclatures, recueil des coûts de fabrication par contact avec les sous-traitants.
+	•	Etablissement des plans de vérifications des pièces et rédactions des procédures
+	•	Réalisation de prototypes sous-ensembles et système, suivi de la réalisation des prototypes avec le fournisseur, assemblage /montage des prototypes 
+	•	Définitions des campagnes de mesures mécaniques, monter et développer les bancs nécessaires, réalisation ou suivi des mesures pour évaluation puis pour validation des performances et rédaction des rapports de vérifications
+	•	Acteur de l’amélioration continue des designs existant en production, mise en place de solution à travers le processus ECR/ECO 
+	•	Interactions fréquentes avec la production, les fournisseurs, les équipes programmes 
+Compétences Et Qualifications 
+	•	Minimum Bac+2 / Master en Ingénierie
+	•	Spécialité Mécanique / Mécatronique
+	•	Bon niveau en Anglais 
+	•	Esprit d'initiative, se concentrer sur les objectifs et se montrer polyvalent.
+	•	Excellentes compétences de communication, esprit d’équipe. 
+Inclusion et diversité  GE HealthCare est un employeur offrant l'égalité des chances où l'inclusion compte. Les décisions relatives à l'emploi sont prises sans tenir compte de l’origine national ou ethnique, de la religion, du sexe, de l'orientation sexuelle, de l'identité ou de l'expression de genre, de l'âge, du handicap, du statut d'ancien combattant protégé ou d'autres caractéristiques protégées par la loi.  Nos rémunérations totales sont conçues pour libérer votre ambition en vous donnant la motivation et la flexibilité dont vous avez besoin pour transformer vos idées en réalités qui changent le monde. Nos salaires et nos avantages sociaux correspondent à tout ce que vous attendez d’une organisation ayant une dimension internationale, avec des possibilités de développement de carrière, dans une culture qui favorise la collaboration et le soutien. 

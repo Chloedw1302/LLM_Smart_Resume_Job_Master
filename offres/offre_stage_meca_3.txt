@@ -1,0 +1,19 @@
+STAGE - Ingénieur en modélisation système F/H
+
+À propos de l’offre d’emploi
+Rejoindre KNDS France, c'est bien plus qu'intégrer une entreprise – c'est vivre une aventure humaine et professionnelle unique !  Nous sommes leader dans la conception, la production et le soutien de systèmes de combat terrestres, d'artillerie, de munitions, d'armes et de robotique. En tant qu'architecte et intégrateur de systèmes de défense, nous sommes fiers de fournir des solutions innovantes et de pointe à nos clients, telles que le char LECLERC, le TITUS® ou encore le canon CAESAR®.  Nous comptons aujourd'hui 4 500 collaborateurs répartis sur 12 sites en France et en Europe, toutes et tous déterminés à contribuer à un avenir plus sûr.  Au sein du Pôle Vétronique de la Direction de l'Ingénierie et de l'Innovation, tu effectueras ton stage dans l'unité Numérisation des Fonctions du département Architecture Electrique et Numérique. L'unité est en charge de modéliser les chaines fonctionnelles détaillées de nos produits et d'en garantir la cohérence grâce à la simulation.  Le but de ce stage est de concevoir l'architecture logique d'un système simple selon notre processus MBSE (Model-Based Systems Engineering) : 
+	•	 Définition de l'architecture statique du système et de ses sous-systèmes,
+	•	 Définition de leurs comportements, 
+Puis de la confronter aux besoins des équipes des architectes numérique, logiciel et intégration banc : 
+	•	 Allocations aux calculateurs,
+	•	 Définition des messageries électroniques,
+	•	 Architectures logiciel des calculateurs,
+	•	 Intégration des blocs dans un banc HIL. 
+Au final sortir un bilan des adaptations qui ont été nécessaires que ce soit au niveau de la définition de l'architecture ou de la méthode pour réussir une définition du système intégré/validé du point de vue système modélisé.   Profil / Compétences requises  
+	•	 Etudiant(e) en dernière année d'école d'ingénieur ou Master 2 généraliste ou spécialisé en automatique/électronique/informatique
+	•	 Compétences en modélisation SysML ou UML.
+	•	 Des connaissances en modélisation Simulink seraient un plus.
+	•	 La méthode à mettre en place nécessitera de la rigueur dans la définition de l'architecture.
+	•	 La collaboration entre les stagiaires sera nécessaire à la réussite de la définition du système.
+	•	 Un suivi sera mis en place pour suivre l'avancement de la définition. 
+Les raisons de nous rejoindre  Viens vivre l'expérience KNDS France !  Tu découvriras l'univers passionnant de la Défense, et développeras de nouvelles compétences.  Ce que nous offrons  Nous proposons un ensemble d'avantages qui vont au-delà des standards car nous souhaitons être acteur de ta réussite :  Une attention particulière à la QVT,  Un réseau interculturel franco-allemand,  Une entreprise apprenante, des managers inspirants,  Une ambiance de travail conviviale, des associations sportives…  Et bien plus encore !  Nos engagements  Chez KNDS, nous faisons de la diversité une force en soutenant activement l'égalité des chances et la lutte contre la discrimination. Nous nous engageons à tous les niveaux à créer un environnement de travail où chaque personne est respectée, mise en valeur et appréciée pour ce qu'elle est.  Ensemble, façonnons l'industrie et la défense de demain.  Postule dès maintenant !   Durée du contrat   6 mois   Type de contrat   Stage

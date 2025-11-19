@@ -1,0 +1,16 @@
+CS26 - BAC + 5 - Ingénieur modélisation éléments finis pour le dimensionnement thermo-mécanique et vibratoire de l'électronique de puissance (H/F)
+
+À propos de l’offre d’emploi
+Contexte Et Environnement De Travail  Le groupe Renault poursuit son engagement envers les jeunes au travers de la formation par l’alternance et les stages. Cette politique volontariste positionne le groupe Renault comme un des contributeurs majeurs au développement de l’apprentissage en France. Dans le cadre de votre stage, vous serez suivi par le service Emploi, compétences et Politiques Jeunes et plus particulièrement au sein des relations écoles et de la marque employeur de Renault.  La simulation numérique joue un rôle clé dans le développement de nos organes mécanique en permettant d'anticiper les contraintes (thermique, mécanique...) qu'ils subissent. En cela, elle rend possible la réduction des délais de développement. C'est le levier principal d'amélioration de l'efficacité de l'Ingénierie.  Vos Missions 
+	•	Vous allez étudier la tenue mécanique de l’électronique de puissance des moteurs électriques.
+	•	Vous réaliserez des simulations numériques vibratoires et thermo-mécaniques dans le respect des standards métier.
+	•	Vous analyserez les résultats obtenus et les synthétiserez dans un document.
+	•	Vous proposerez des protocoles d’essais afin de corréler le physique et le numérique.
+	•	Vous réaliserez des simulations de sensibilité et/ou de robustesse et proposerez des solutions afin d’améliorer la corrélation essais / calculs.
+	•	Vous contribuerez au développement des méthodes de calculs. 
+Qui êtes-vous ? 
+	•	Vous êtes issu d'une école d’ingénieur généraliste avec une spécialisation en mécanique des structures.
+	•	Vous avez de bonnes connaissances en mécanique des milieux continus (dimensionnement des structures), en dynamique des structures (fréquences, modes propres, sollicitations vibratoires) et de la méthode des éléments finis. Des connaissances en fatigue de structures seront appréciées.
+	•	Vous êtes autonome et avez une grande capacité d’analyse. Vous faites preuve de rigueur et d’esprit de synthèse.
+	•	Vous avez un attrait pour la simulation numérique FEM (ex. : Abaqus, Nastran, ANSA/META) 
+Vous souhaitez participer à l’aventure de l’automobile de demain ? Rejoignez-nous !

@@ -1,0 +1,19 @@
+STAGE - Ingénieur Consultant Simulation Numérique par éléments finis (F/H)
+
+À propos de l’offre d’emploi
+La brand SIMULIA de Dassault Systèmes a pour mission de positionner la simulation réaliste au cœur des processus décisionnels des entreprises des diverses industries que nous servons. Sur base de la plateforme 3DEXPERIENCE, la marque SIMULIA est en charge du développement, de la vente et du support de toutes les applications qui intègrent la simulation, l’optimisation ou la gestion des données et des processus de simulation.  En tant qu’Ingénieur Consultant Simulation Numérique par éléments finis, vous serez intégré au sein de l’équipe Avant-Vente Technique SIMULIA EuroWest qui compte une vingtaine de personnes et couvre principalement France, Espagne et Emirats. Cette équipe fait la promotion technique de toutes des solutions logicielles Dassault Systèmes en simulation numérique auprès des grands comptes, sur l’ensemble des Industries du marché. Vous avez la passion d’innover, Dassault Systèmes vous aide à changer le monde !  Stage de 6 mois basé à Vélizy-Villacoublay (78). Des déplacements occasionnels et de courtes durées sont possible principalement en France et en Espagne.  Missions  Sur ce poste, votre objectif sera de participer techniquement au Cycle de Vente de nos solutions sur un certain nombre d’opportunités, et de réaliser les tâches suivantes : 
+	•	Préparation de démonstrateurs techniques de simulations par éléments finis sur base des solutions Dassault Systèmes et de la Plateforme 3DEXPERIENCE
+	•	Préparation de présentations techniques, de méthodologies de simulation numériques, y compris sur l’aspect processus de simulation, PIDO et gestion des données de simulation
+	•	Analyse et synthèse des besoins métier du client ; capacité à engager un rapport de « conseil métier » et « valeur ajoutée » avec le client
+	•	Tester les nouvelles fonctionnalités software sur des cas pratiques clients 
+Les domaines d’application principaux seront liés aux enjeux actuels de nos clients, afin de leur apporter des solutions techniques innovantes leur permettant d’améliorer leurs processus de recherche et d’innovation.  Qualifications 
+	•	 Vous êtes étudiant.e de formation ingénieur grande école ou Bac+5 en génie mécanique, vous recherchez un stage conventionné
+	•	 Vous avez des connaissances en simulation numérique et sur la théorie des éléments finis et, éventuellement sur les aspects optimisations, processus de simulation
+	•	 Vous avez déjà pratiqué un ou plusieurs logiciels de simulation par éléments finis de type structure (Abaqus, Ansys, Nastran, LS-Dyna…) et de CAD (CATIA, Solidworks…). La connaissance de logiciels de fatigue, d’optimisation, de gestion des processus de simulation ou de langage de programmation VBA, Python, sera un plus
+	•	 Au-delà de vos compétences techniques, vous avez un très bon relationnel, vous êtes à l’aise dans la relation client et possédez un bon niveau d’autonomie. Votre réactivité, votre curiosité, votre créativité, votre capacité de synthèse, et le travail en équipe seront des critères essentiels pour ce poste
+	•	 La maitrise de l’anglais, à l’écrit comme à l’oral est indispensable 
+Nous rejoindre, c'est aussi  Intégrer une entreprise scientifique au cœur de l’innovation technologique, portée par une forte croissance depuis plus de 40 ans.  Principaux avantages et bénéfices : 
+	•	 Environnement multiculturel
+	•	 Cadre de travail convivial axé sur le bien-être et la santé (salles de sport & de musique, conciergerie, …)
+	•	 Engagement en faveur de la diversité et de l’inclusion
+	•	 Politique dynamique de développement de carrière : plan de formation, mobilités internes, etc.
