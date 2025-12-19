@@ -14,6 +14,7 @@ class OllamaEmbeddings:
 
     def __init__(self, model=None, base_url=None, timeout=30):
         self.model = model or os.getenv("OLLAMA_EMBEDDING_MODEL", "local-embedding")
+        self.base_url = base_url or os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
         self.timeout = timeout
 
     def _call_ollama(self, inputs):
