@@ -1,60 +1,12 @@
+# ingestion_pipeline.py
 import os
-from langchain_community.document_loaders import TextLoader, DirectoryLoader
-from langchain_text_splitters import CharacterTextSplitter
-import requests
-
-
-class OllamaEmbeddings:
-    """Minimal embeddings wrapper for Ollama's local HTTP API.
-
-    This implements `embed_documents` and `embed_query` methods expected
-    by LangChain/Chroma. It posts to `http://localhost:11434/api/embeddings`.
-    Configure model with the `OLLAMA_EMBEDDING_MODEL` env var.
-    """
-
-    def __init__(self, model=None, base_url=None, timeout=30):
-        self.model = model or os.getenv("OLLAMA_EMBEDDING_MODEL", "local-embedding")
-        self.base_url = base_url or os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-        self.timeout = timeout
-
-    def _call_ollama(self, inputs):
-        url = f"{self.base_url}/api/embeddings"
-        payload = {"model": self.model, "input": inputs}
-        try:
-            resp = requests.post(url, json=payload, timeout=self.timeout)
-            resp.raise_for_status()
-        except Exception as e:
-            raise RuntimeError(f"Failed to call Ollama embeddings API at {url}: {e}")
-
-        data = resp.json()
-
-        # Normalize responses of common shapes
-        embeddings = []
-        if isinstance(data, dict) and "data" in data:
-            for item in data["data"]:
-                emb = item.get("embedding") or item.get("embeddings")
-                if emb is None:
-                    raise RuntimeError(f"No embedding found in response item: {item}")
-                embeddings.append(emb)
-        elif isinstance(data, list):
-            for item in data:
-                if isinstance(item, dict) and "embedding" in item:
-                    embeddings.append(item["embedding"])
-                else:
-                    raise RuntimeError(f"Unexpected embedding list item: {item}")
-        else:
-            raise RuntimeError(f"Unexpected response shape from Ollama embeddings API: {data}")
-
-        return embeddings
-
-    def embed_documents(self, texts):
-        return self._call_ollama(texts)
-
-    def embed_query(self, text):
-        return self._call_ollama([text])[0]
-
-from langchain_chroma import Chroma
 from dotenv import load_dotenv
+
+from langchain_community.document_loaders import TextLoader, DirectoryLoader, PyPDFLoader
+from langchain_text_splitters import CharacterTextSplitter
+from langchain_chroma import Chroma
+
+from embeddings_ollama import OllamaEmbeddings
 
 load_dotenv()
 
@@ -65,115 +17,135 @@ class UTF8TextLoader(TextLoader):
         super().__init__(file_path, encoding=encoding, autodetect_encoding=autodetect_encoding)
 
 
-def load_documents(docs_path="offres"):
-    """Load all text files from the docs directory"""
-    print(f"Loading documents from {docs_path}...")
-    
-    # Check if docs directory exists
-    if not os.path.exists(docs_path):
-        raise FileNotFoundError(f"The directory {docs_path} does not exist. Please create it and add your company files.")
-    
-    # Load all .txt files from the docs directory with UTF-8 encoding
+def load_job_documents(jobs_path="offres"):
+    print(f"Loading job offers from {jobs_path}...")
+    if not os.path.exists(jobs_path):
+        raise FileNotFoundError(f"Directory not found: {jobs_path}")
+
     loader = DirectoryLoader(
-        path=docs_path,
+        path=jobs_path,
         glob="*.txt",
         loader_cls=UTF8TextLoader
     )
-    
-    documents = loader.load()
-    
-    if len(documents) == 0:
-        raise FileNotFoundError(f"No .txt files found in {docs_path}. Please add your company documents.")
-    
-   
-    for i, doc in enumerate(documents[:2]):  # Show first 2 documents
-        print(f"\nDocument {i+1}:")
-        print(f"  Source: {doc.metadata['source']}")
-        print(f"  Content length: {len(doc.page_content)} characters")
-        print(f"  Content preview: {doc.page_content[:100]}...")
-        print(f"  metadata: {doc.metadata}")
+    docs = loader.load()
+    if not docs:
+        raise FileNotFoundError(f"No .txt files found in {jobs_path}")
 
-    return documents
+    # Tag metadata
+    for d in docs:
+        d.metadata["doc_type"] = "job"
 
-def split_documents(documents, chunk_size=1000, chunk_overlap=0):
-    """Split documents into smaller chunks with overlap"""
+    print(f"Loaded {len(docs)} job documents.")
+    return docs
+
+
+def load_cv_documents(cvs_path="CV"):
+    print(f"Loading CVs from {cvs_path}...")
+    if not os.path.exists(cvs_path):
+        raise FileNotFoundError(f"Directory not found: {cvs_path}")
+
+    docs = []
+    for fn in os.listdir(cvs_path):
+        if fn.lower().endswith(".pdf"):
+            fp = os.path.join(cvs_path, fn)
+            loader = PyPDFLoader(fp)
+            pdf_docs = loader.load()
+            for d in pdf_docs:
+                d.metadata["doc_type"] = "cv"
+                d.metadata["cv_file"] = fn
+            docs.extend(pdf_docs)
+
+    if not docs:
+        raise FileNotFoundError(f"No .pdf files found in {cvs_path}")
+
+    print(f"Loaded {len(docs)} CV pages (PDF pages).")
+    return docs
+
+
+def split_documents(documents, chunk_size=1000, chunk_overlap=150):
     print("Splitting documents into chunks...")
-    
-    text_splitter = CharacterTextSplitter(
-        chunk_size=chunk_size, 
+    splitter = CharacterTextSplitter(
+        chunk_size=chunk_size,
         chunk_overlap=chunk_overlap
     )
-    
-    chunks = text_splitter.split_documents(documents)
-    
-    if chunks:
-    
-        for i, chunk in enumerate(chunks[:5]):
-            print(f"\n--- Chunk {i+1} ---")
-            print(f"Source: {chunk.metadata['source']}")
-            print(f"Length: {len(chunk.page_content)} characters")
-            print(f"Content:")
-            print(chunk.page_content)
-            print("-" * 50)
-        
-        if len(chunks) > 5:
-            print(f"\n... and {len(chunks) - 5} more chunks")
-    
+    chunks = splitter.split_documents(documents)
+
+    print(f"Created {len(chunks)} chunks.")
     return chunks
 
-def create_vector_store(chunks, persist_directory="db/chroma_db"):
-    """Create and persist ChromaDB vector store"""
-    print("Creating embeddings and storing in ChromaDB...")
-        
-    embedding_model = OllamaEmbeddings(model=os.getenv("OLLAMA_EMBEDDING_MODEL", "local-embedding"))
-    
-    # Create ChromaDB vector store
-    print("--- Creating vector store ---")
-    vectorstore = Chroma.from_documents(
-        documents=chunks,
-        embedding=embedding_model,
-        persist_directory=persist_directory, 
-        collection_metadata={"hnsw:space": "cosine"}
+
+def build_or_load_vectorstore(persist_directory, collection_name, documents=None):
+    """
+    If persist_directory exists AND has data, loads it.
+    Otherwise builds from documents and persists.
+    """
+    embedding_model = OllamaEmbeddings(
+        model=os.getenv("OLLAMA_EMBEDDING_MODEL", "local-embedding")
     )
-    print("--- Finished creating vector store ---")
-    
-    print(f"Vector store created and saved to {persist_directory}")
-    return vectorstore
+
+    os.makedirs(persist_directory, exist_ok=True)
+
+    # Load existing collection if already indexed
+    db = Chroma(
+        persist_directory=persist_directory,
+        embedding_function=embedding_model,
+        collection_name=collection_name,
+        collection_metadata={"hnsw:space": "cosine"},
+    )
+
+    count = db._collection.count()
+    if count > 0:
+        print(f"✅ Loaded existing vectorstore '{collection_name}' with {count} chunks.")
+        return db
+
+    if documents is None:
+        raise ValueError(f"No existing DB found for '{collection_name}' and no documents provided to build it.")
+
+    print(f"Creating vectorstore '{collection_name}' in {persist_directory} ...")
+    db = Chroma.from_documents(
+        documents=documents,
+        embedding=embedding_model,
+        persist_directory=persist_directory,
+        collection_name=collection_name,
+        collection_metadata={"hnsw:space": "cosine"},
+    )
+    print(f"✅ Built vectorstore '{collection_name}' with {db._collection.count()} chunks.")
+    return db
+
 
 def main():
-    """Main ingestion pipeline"""
-    print("=== RAG Document Ingestion Pipeline ===\n")
-    
-    # Define paths
-    docs_path = "LLM_Smart_Resume_Job_Master\offres"
-    persistent_directory = "db/chroma_db"
-    
-    # Check if vector store already exists
-    if os.path.exists(persistent_directory):
-        print("✅ Vector store already exists. No need to re-process documents.")
-        
-        embedding_model = OllamaEmbeddings(model=os.getenv("OLLAMA_EMBEDDING_MODEL", "local-embedding"))
-        vectorstore = Chroma(
-            persist_directory=persistent_directory,
-            embedding_function=embedding_model, 
-            collection_metadata={"hnsw:space": "cosine"}
-        )
-        print(f"Loaded existing vector store with {vectorstore._collection.count()} documents")
-        return vectorstore
-    
-    print("Persistent directory does not exist. Initializing vector store...\n")
-    
-    # Step 1: Load documents
-    documents = load_documents(docs_path)  
+    print("=== Smart Resume & Job Matcher | Ingestion ===\n")
 
-    # Step 2: Split into chunks
-    chunks = split_documents(documents)
-    
-    # # Step 3: Create vector store
-    vectorstore = create_vector_store(chunks, persistent_directory)
-    
-    print("\n✅ Ingestion complete! Your documents are now ready for RAG queries.")
-    return vectorstore
+    jobs_path = "offres"
+    cvs_path = "CV"
+
+    # Two separate DB folders (clean separation)
+    jobs_db_dir = os.path.join("db", "chroma_jobs")
+    cvs_db_dir = os.path.join("db", "chroma_cvs")
+
+    # 1) Jobs
+    job_docs = load_job_documents(jobs_path)
+    job_chunks = split_documents(job_docs, chunk_size=1000, chunk_overlap=150)
+    jobs_db = build_or_load_vectorstore(
+        persist_directory=jobs_db_dir,
+        collection_name="jobs",
+        documents=job_chunks
+    )
+
+    # 2) CVs
+    cv_docs = load_cv_documents(cvs_path)
+    cv_chunks = split_documents(cv_docs, chunk_size=900, chunk_overlap=150)
+    cvs_db = build_or_load_vectorstore(
+        persist_directory=cvs_db_dir,
+        collection_name="cvs",
+        documents=cv_chunks
+    )
+
+    print("\n✅ Ingestion complete.")
+    print(f"- Jobs chunks: {jobs_db._collection.count()}  (db: {jobs_db_dir})")
+    print(f"- CV chunks:   {cvs_db._collection.count()}  (db: {cvs_db_dir})")
+    return jobs_db, cvs_db
+
 
 if __name__ == "__main__":
     main()
